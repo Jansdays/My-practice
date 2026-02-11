@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手风琴</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jQuery-v3.4.0.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <style>
+        .navbar {
+            background-color: #000;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            background-color: #007bff;
+        }
+
+        .dropdown-toggle::after {
+            display: none !important;
+            /* 确保箭头图标完全隐藏 */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav w-100 justify-content-between">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a type="button" class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">首页</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item bg-warning">后端开发</a></li>
+                                <li><a href="#" class="dropdown-item bg-primary">java</a></li>
+                                <li><a href="#" class="dropdown-item bg-primary">javaweb</a></li>
+                                <li><a href="#" class="dropdown-item bg-primary">PHP</a></li>
+                                <li><a href="#" class="dropdown-item bg-primary">c#.c++</a></li>
+                                <li><a href="#" class="dropdown-item bg-primary">vc++</a></li>
+                                <li><a href="#" class="dropdown-item bg-warning">移动端开发</a></li>
+                                <li><a href="#" class="dropdown-item bg-primary">Android</a></li>
+                                <li><a href="#" class="dropdown-item bg-warning">数据库开发</a></li>
+                                <li><a href="#" class="dropdown-item bg-warning">前端开发</a></li>
+                                <li><a href="#" class="dropdown-item bg-warning">其他</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">课程</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">读书</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">社区</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">服务中心</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">开发资源库</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link href="./css/bootstrap.min.css" rel="stylesheet"/> 
+    <!-- <link href="./css/main1.css" rel="stylesheet"/> -->
+    <title>M3scholl</title>
+    
+</head>
+<body>
+<div class="container">
+<!--Logo-->
+    <div class="row">
+        <div class="col">
+            <div class="bg-logo">
+                <img src="img/logo.png">
+            </div>
+        </div>
+    </div>
+ <!--导航-->
+    <div class="row">
+        <div class="col">
+            <div id="main-nav">
+              <ul>
+                <li><a href="#">HTML/CSS</a></li>
+                <li><a href="#">javascript</a></li>
+                <li><a href="#">Server Side</a></li>
+                <li><a href="#">ASP.NET</a></li>
+                <li><a href="#">XML</a></li>
+                <li><a href="#">Web Services/CSS</a></li>
+                <li><a href="#">Wed Buliding/CSS</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+ <!--主体-->
+ <div class="row">
+ <!--左-->
+    <div class="col-3">
+            <div class="col-4 col-md-8">
+                <div id="leftside">
+                    <h3>HTML教程</h3>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">HTML5</a></li>
+                        <li><a href="#">XHTML</a></li>
+                        <li><a href="#">CSS3</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">TCP/TP</a></li>
+                    </ul>
+                    <h3>浏览器脚本</h3>
+                    <ul>
+                        <li><a href="#">javascript</a></li>
+                        <li><a href="#">HTML DOM</a></li>
+                        <li><a href="#">jQuery-v3</a></li>
+                        <li><a href="#">jQuery Mobile</a></li>
+                        <li><a href="#">AJAX</a></li>
+                        <li><a href="#">JSON</a></li>
+                        <li><a href="#">DHTML</a></li>
+                        <li><a href="#">HEX4</a></li>
+                        <li><a href="#">WMLScrppt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+  
+ <!--中-->
+        <div class="col-6 main">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/icon1.png">
+                    </div>
+                    <div class="col-9">
+
+
+                        <h2>完整的网站技术参考手册</h2>
+                        <p>我们的参考手册涵盖了网站技术的方方面面</p>
+                        <p>其中包括W3C标准技术:HTML。以及其他技术,诸如 Java......</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/icon2.png">
+                    </div>
+                    <div class="col-9">
+                        <h2>在线实例测试工具</h2>
+                        <p>在w3schoo1,我们提供了上千个实例。</p>
+                        <p>通过使用我们的在线编辑器，你可以编辑这些实例，并对代码进行实验。</p>
+                    </div>
+                </div>
+              
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/icon3.png">
+                    </div>
+                    <div class="col-9">
+                        <h2>快捷易懂的学习方式</h2>
+                        <p>一寸光阴一寸金，因此，我们为您提供快捷易懂的学习内容。</p>
+                        <p>在这里，您可以通过一种易懂的便利的模式获得您需要的任何知识。</p>
+                    </div>
+                </div>
+        </div>
+ <!--右-->
+        <div class="col-3">
+                    <div id="rightside">
+                        <h3>参考手册</h3>
+                        <ul>
+                            <li><a href="#">HTML/HTML5 标签</a></li>
+                            <li><a href="#">HTML 颜色</a></li>
+                            <li><a href="#">CSS 1,2,3</a></li>
+                            <li><a href="#">javascript</a></li>
+                            <li><a href="#">HTML DOM</a></li>
+                            <li><a href="#">jQuery</a></li>
+                            <li><a href="#">JQuery Mobile<</a></li>
+                            <li><a href="#">VBScript</a></li>
+                            <li><a href="#">ASP</a></li>
+                            <li><a href="#">ADO</a></li>
+                            <li><a href="#">ASP.NET</a></li>
+                            <li><a href="#">PHP 5.1</a></li>
+                            <li><a href="#">ML DOM</a></li>
+                            <li><a href="#">XSIT 1.0</a></li>
+                            <li><a href="#">XPath 2.0</a></li>
+                            <li><a href="#">XSL-FO</a></li>
+                            <li><a href="#">WMI 1.1</a></li>
+                            <li><a href="#">W3C术语表</a></li>
+                        </ul> 
+                    </div>
+         </div> 
+</div>
+ <!--页脚-->
+    <div class="row">
+        <div class="col-sm-12">
+            <footer>
+                <P>W3school提供的内容仅用于培训,但我们不保证内容的正确性。通过使用本站内随之而来的风险与本站无关。</P>
+                <P>W3school简体中文版的所有内容仅供测试,对任何法律问题及风险不承担任责任。</P>
+            </footer>
+        </div>
+    </div>
+
+</div>
+
+<script language="javascript">
+    function alertHeight(){
+        var divH1=document.getElementById("leftside");
+        var divH2=document.getElementById("maincontent");
+        var divH3=document.getElementById("rightside");
+        var allHeight;
+        if(divH1.clientHeight>divH2.clientHeight)
+            allHeight=divH1.clientHeight;
+        else
+            allHeight=divH2.clientHeight;
+        if(allHeight<divH3.clientHeight)
+            allHeight=divH3.clientHeight;
+        divH1.style.height=allHeight+'px';
+        divH2.style.height=allHeight+'px';
+        divH3.style.height=allHeight+'px';
+    }
+     window.onload=alertHeight;
+</script>
+</body>
+
+</html>

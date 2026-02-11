@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<style>
+    body {
+        padding: 0;       /*  内外边距 */
+        margin: 0;
+        background-image: url(./img/img32.jpg);        /*  背景图片 */
+        background-position: center;        /*  背景图片居中 */
+    }
+    .row p-3 m-8 {     /*  时间组件盒子 */
+        top: 35px;       
+        left: 50%;
+        transform: translateX(-50%);      /* 元素沿着X轴向左移动了其自身宽度的50% */
+        padding: 10px;
+        text-align: center;
+    }
+    .timeText {
+        text-align: center;
+        max-width: 300px;       /* 最大宽度  */
+        font-family: HarmonyOS;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 84px;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 1);        /* 在文本周围创建阴影效果  */
+    }
+    .Tu {
+        padding-top: 30%;      /* 顶部内边距的大小是元素宽度的30% */
+    }
+    .Wen {
+        text-align: center;
+        color: #ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;        /* 字体 */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    }
+    figure {
+        width: 4.5rem;    /* 元素的宽度  */
+    }
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+    .blinking-colon {
+        animation: blink 1s step-end infinite;
+    }
+</style>
+<body>
+    <div class="container">
+        <!-- 时间 -->
+        <div class="row p-3 m-8">
+            <div class="col-6 col-md-6 ">
+                <div class="timeText">
+                    13<span class="blinking-colon">:</span>14
+                    <p style="font-size: 16px; margin-left: -50px;">2月24日&nbsp&nbsp星期一&nbsp&nbsp</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+            </div>
+        </div>
+        <!-- 图标 -->
+        <div class="Tu">
+            <div class="row p-0 m-0">
+                <div class="col-12 col-md-6 p-0 m-0">
+                    <div class="d-flex justify-content-around">
+                        <!-- 1 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img1.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">战地风云5</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 2 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img2.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">消逝的光芒</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 3 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img3.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">饥荒</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 4 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img4.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">马猴烧酒</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-0 m-0">
+                    <div class="d-flex justify-content-around">
+                        <!-- 5 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img5.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">深海迷航</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 6 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img6.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">战地风云1</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 7 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img7.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">PUBG</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 8 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img8.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">求生之路2</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-0 m-0">
+                <div class="col-12 col-md-6 p-0 m-0">
+                    <div class="d-flex justify-content-around">
+                        <!-- 9 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img9.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">幻兽帕鲁</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 10 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img10.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">AUBZ</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 11 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img11.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">都市地平线</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 12 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img12.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">恋恋桌宠</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-0 m-0">
+                    <div class="d-flex justify-content-around">
+                        <!-- 13 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img13.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">壁纸引擎</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 14 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img14.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">道德与法治</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 15 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img15.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">Strange Brigade</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- 16 -->
+                        <div>
+                            <figure>
+                                <img src="./img/img16.ico" class="card-img-top" alt="...">
+                                <figcaption>
+                                    <p class="Wen">QQ</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>   
+</html>
